@@ -1,3 +1,5 @@
+@import "../../styles/colors.scss";
+
 .product {
   max-width: 1200px;
   width: 80%;
@@ -41,7 +43,7 @@
       font-weight: 400;
       line-height: 19px;
       letter-spacing: 10px;
-      color: #d87d4a;
+      color: $primary;
     }
 
     &-buttons {

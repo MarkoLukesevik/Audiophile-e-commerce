@@ -1,13 +1,11 @@
+@import "../../styles/colors.scss";
+
 .thank-you {
-  // position: fixed;
   position: absolute;
   z-index: 2;
-  // left: 50%;
   top: 200px;
   left: calc(50% - 270px);
-  // transform: translate(-50%, -50%);
   width: 540px;
-  // height: auto;
   background-color: #ffffff;
   border-radius: 8px;
   padding: 20px 0px;
@@ -24,7 +22,7 @@
     &-success {
       width: 64px;
       height: 64px;
-      background-color: #d87d4a;
+      background-color: $primary;
       color: #ffffff;
       border-radius: 50%;
       display: flex;

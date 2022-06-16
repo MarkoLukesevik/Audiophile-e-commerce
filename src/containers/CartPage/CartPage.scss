@@ -1,5 +1,7 @@
+@import "../../styles/colors.scss";
+
 .cart-page {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: $active-modal-background;
   height: 170vh;
 
   & .category-header {

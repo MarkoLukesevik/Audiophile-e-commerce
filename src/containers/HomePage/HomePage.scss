@@ -1,3 +1,5 @@
+@import "../../styles/colors.scss";
+
 .home-page-container {
   margin: 0 auto;
   max-width: 1200px;
@@ -12,7 +14,7 @@
   margin: 0 auto;
   width: 100%;
   border-radius: 8px;
-  background-color: #d87d4a;
+  background-color: $primary;
   display: flex;
   align-items: center;
   justify-content: space-around;

@@ -1,3 +1,5 @@
+@import "../../styles/colors.scss";
+
 .in-the-box {
   display: flex;
   align-items: flex-start;
@@ -13,6 +15,6 @@
     font-size: 15px;
     font-weight: 700;
     line-height: 25px;
-    color: #d87d4a;
+    color: $primary;
   }
 }

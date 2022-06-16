@@ -1,8 +1,10 @@
+@import "../../styles/colors.scss";
+
 .checkout-page {
   background-color: #f1f1f1;
 
   &-gray {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: $active-modal-background;
 
     & .checkout-page__content {
       visibility: hidden;
@@ -40,7 +42,7 @@
       }
 
       & span {
-        color: #d87d4a;
+        color: $primary;
         font-family: Manrope;
         font-size: 13px;
         font-weight: 700;
@@ -98,8 +100,8 @@ input {
 }
 input:focus {
   outline: none !important;
-  caret-color: #d87d4a;
-  border: 1px solid #d87d4a;
+  caret-color: $primary;
+  border: 1px solid $primary;
 }
 
 .radio-input-div {
@@ -125,7 +127,7 @@ input[type="radio"] {
   height: 20px;
 }
 input[type="radio"]:checked {
-  accent-color: #d87d4a;
+  accent-color: $primary;
 }
 
 input::-webkit-outer-spin-button,
@@ -138,7 +140,7 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 .input-red {
-  border: 1px solid #cd2c2c;
+  border: 1px solid $error-color;
 }
 .error {
   font-family: Manrope;
@@ -146,7 +148,7 @@ input[type="number"] {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: -0.2142857164144516px;
-  color: #cd2c2c;
+  color: $error-color;
 }
 
 .cash-delivery {
