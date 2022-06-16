@@ -1,0 +1,25 @@
+.btn {
+  width: 160px;
+  min-height: 48px;
+  background-color: #d87d4a;
+  border: none;
+  font-family: Manrope;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #ffffff;
+
+  &__text {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  &:hover {
+    background-color: #fbaf85;
+  }
+  &:disabled {
+    background-color: #fbae855b;
+    cursor: auto;
+  }
+}

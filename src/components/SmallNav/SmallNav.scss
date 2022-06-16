@@ -1,0 +1,16 @@
+.small-nav {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .small-nav {
+    flex-direction: column;
+  }
+}

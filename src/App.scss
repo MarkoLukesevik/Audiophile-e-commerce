@@ -1,0 +1,89 @@
+// $primary: #d87d4a;
+// $primary-hover: #fbaf85;
+// $error-color: #cd2c2c;
+// $active-modal-background: #979797;
+
+// $tablet-breakpoint: 992px;
+// $mobile-breakpoint: 768px;
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+}
+h2 {
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.4285714626312256px;
+}
+h3 {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.1428571939468384px;
+}
+h4 {
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 2px;
+}
+h5 {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 1.7142857313156128px;
+}
+h6 {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1.2857142686843872px;
+}
+p {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.2857142686843872px;
+  }
+  h2 {
+    font-family: Manrope;
+    font-size: 28px;
+    line-height: 38px;
+  }
+  h3 {
+    font-family: Manrope;
+    font-size: 24px;
+    letter-spacing: 0.8571428656578064px;
+  }
+
+  h6 {
+    font-family: Manrope;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.0714285373687744px;
+  }
+}

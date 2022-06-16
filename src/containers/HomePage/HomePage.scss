@@ -1,0 +1,163 @@
+.home-page-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 80%;
+
+  & .best-gear {
+    width: 100%;
+  }
+}
+
+.banner-zx9 {
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #d87d4a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 560px;
+  gap: 40px;
+
+  &__img {
+    width: 330px;
+    height: 450px;
+    margin-left: 60px;
+  }
+  & .product {
+    width: 40%;
+
+    & p {
+      color: rgba(255, 255, 255, 0.75);
+    }
+  }
+
+  & .btn {
+    background-color: black;
+
+    &:hover {
+      background-color: #4c4c4c;
+    }
+  }
+}
+
+.banner-zx7 {
+  background-image: url("../../../public/assets/home/desktop/image-speaker-zx7.jpg");
+  background-size: cover;
+  background-position: right;
+  margin: 50px auto;
+  width: 100%;
+  height: 320px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  & .product .btn {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+
+    &__text {
+      color: black;
+    }
+    &:hover {
+      background-color: black;
+      color: white;
+
+      & .btn__text {
+        color: white;
+      }
+    }
+  }
+}
+
+.banner-yx1 {
+  margin: 0 auto;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+
+  &__img {
+    border-radius: 8px;
+    width: 50%;
+    height: 100%;
+  }
+
+  & .product {
+    height: 100%;
+    width: 50%;
+    background-color: #f1f1f1;
+    align-items: center;
+    justify-content: center;
+
+    &__content {
+      align-items: center;
+    }
+
+    & .btn {
+      background-color: transparent;
+      border: 2px solid black;
+      color: black;
+
+      &__text {
+        color: black;
+      }
+      &:hover {
+        background-color: black;
+        color: white;
+
+        & .btn__text {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .banner-zx9 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__img {
+      margin: 120px 0px 0px;
+      width: 198px;
+      height: 237px;
+    }
+
+    & .product {
+      width: 80%;
+
+      &__content {
+        width: 100%;
+        height: 50%;
+      }
+    }
+  }
+
+  .banner-zx7 {
+    background-image: url("../../../public/assets/home/tablet/image-speaker-zx7.jpg");
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-zx7 {
+    background-image: url("../../../public/assets/home/mobile/image-speaker-zx7.jpg");
+  }
+
+  .banner-yx1 {
+    flex-direction: column;
+    gap: 10px;
+    height: 424;
+
+    &__img {
+      width: 100%;
+      height: 50%;
+    }
+  }
+}

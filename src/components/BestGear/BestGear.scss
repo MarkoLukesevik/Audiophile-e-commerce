@@ -1,0 +1,42 @@
+.best-gear {
+  margin: 100px auto;
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+
+  &__content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__img {
+    width: 50%;
+    max-height: 500px;
+  }
+}
+.best {
+  color: #d87d4a;
+}
+
+@media only screen and (max-width: 992px) {
+  .best-gear {
+    flex-direction: column-reverse;
+
+    &__content {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__img {
+      width: 100%;
+    }
+  }
+}

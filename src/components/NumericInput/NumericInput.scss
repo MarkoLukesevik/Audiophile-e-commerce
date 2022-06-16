@@ -1,0 +1,23 @@
+.numeric-input {
+  width: 120px;
+  height: 48px;
+  background-color: rgba(128, 128, 128, 0.187);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__count {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  & .btn {
+    width: 50%;
+    background-color: transparent;
+    color: black;
+    opacity: 0.25;
+  }
+}

@@ -1,0 +1,47 @@
+.cart-modal-item {
+  width: 90%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  &__start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    &-img {
+      border-radius: 8px;
+      height: 100%;
+      width: 64px;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      & p {
+        font-weight: bold;
+      }
+
+      & span {
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 25px;
+        color: black;
+        opacity: 0.5;
+      }
+    }
+  }
+  & .numeric-input {
+    position: absolute;
+    right: 5%;
+    width: 96px;
+    height: 32px;
+  }
+}
