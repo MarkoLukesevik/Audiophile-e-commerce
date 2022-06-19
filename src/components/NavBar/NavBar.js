@@ -25,12 +25,12 @@ function NavBar() {
         <img
           onClick={() => toggleVisible()}
           className="nav__container-hamburger"
-          src="./assets/shared/tablet/icon-hamburger.svg"
+          src="/assets/shared/tablet/icon-hamburger.svg"
           alt=""
         ></img>
         <img
           className="nav__container-logo"
-          src="./assets/shared/desktop/logo.svg"
+          src="/assets/shared/desktop/logo.svg"
           alt=""
           onClick={HomePage}
         ></img>

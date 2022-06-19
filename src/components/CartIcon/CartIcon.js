@@ -15,7 +15,7 @@ function CartIcon() {
       <NavLink to="/cartPage">
         <img
           className="cart__icon-image"
-          src="./assets/shared/desktop/icon-cart.svg"
+          src="/assets/shared/desktop/icon-cart.svg"
           alt=""
         ></img>
       </NavLink>
