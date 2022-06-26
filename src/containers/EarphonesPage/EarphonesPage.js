@@ -18,7 +18,7 @@ function EarphonesPage() {
           key={earphone.id}
           {...earphone}
           btnText="SEE PRODUCT"
-          link={`/product/${earphone.id}`}
+          navigateTo={`/product/${earphone.id}`}
         />
       );
     });

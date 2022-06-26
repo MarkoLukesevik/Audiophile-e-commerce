@@ -78,7 +78,7 @@ function CartModal({
 
         <Button
           btnText={btnText}
-          onBtnClick={onBtnClick && onBtnClick}
+          onBtnClick={onBtnClick}
           isBtnDisabled={isBtnDisabled}
         />
       </div>

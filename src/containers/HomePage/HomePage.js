@@ -33,7 +33,7 @@ function HomePage() {
             name="ZX9 SPEAKER"
             description="Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound."
             btnText="SEE PRODUCT"
-            link={zx9 && `/product/${zx9.id}`}
+            navigateTo={zx9 && `/product/${zx9.id}`}
           />
         </div>
 
@@ -41,7 +41,7 @@ function HomePage() {
           <Product
             name="ZX7 SPEAKER"
             btnText="SEE PRODUCT"
-            link={zx7 && `/product/${zx7.id}`}
+            navigateTo={zx7 && `/product/${zx7.id}`}
           />
         </div>
 
@@ -54,7 +54,7 @@ function HomePage() {
           <Product
             name="YX1 EARPHONES"
             btnText="SEE PRODUCT"
-            link={yx1 && `/product/${yx1.id}`}
+            navigateTo={yx1 && `/product/${yx1.id}`}
           />
         </div>
 

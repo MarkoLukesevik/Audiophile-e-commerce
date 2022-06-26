@@ -18,7 +18,7 @@ function HeadphonesPage() {
           key={headphone.id}
           {...headphone}
           btnText="SEE PRODUCT"
-          link={`/product/${headphone.id}`}
+          navigateTo={`/product/${headphone.id}`}
         />
       );
     });

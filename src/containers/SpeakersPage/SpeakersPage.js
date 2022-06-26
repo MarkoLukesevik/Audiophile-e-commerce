@@ -18,7 +18,7 @@ function SpeakersPage() {
           key={speaker.id}
           {...speaker}
           btnText="SEE PRODUCT"
-          link={`/product/${speaker.id}`}
+          navigateTo={`/product/${speaker.id}`}
         />
       );
     });

@@ -13,7 +13,7 @@ function Banner(props) {
           name={props.name}
           description="Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast."
           btnText="SEE PRODUCT"
-          link={`/product/${props.id}`}
+          navigateTo={`/product/${props.id}`}
         />
       </div>
     </div>

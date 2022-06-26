@@ -9,7 +9,7 @@ function Product({
   isNew,
   name,
   description,
-  link,
+  navigateTo,
   btnText,
   image,
   onBtnClick,
@@ -34,7 +34,11 @@ function Product({
               onInputDecrease={() => decreaseProductQuantity("-")}
             />
           )}
-          <Button btnText={btnText} link={link} onBtnClick={onBtnClick} />
+          <Button
+            btnText={btnText}
+            navigateTo={navigateTo}
+            onBtnClick={onBtnClick}
+          />
         </div>
       </div>
     </div>

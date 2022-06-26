@@ -1,12 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import "./Button.scss";
 
-function Button({ btnText, link, arrow, onBtnClick, isBtnDisabled }) {
+function Button({
+  btnText,
+  link,
+  arrow,
+  onBtnClick,
+  isBtnDisabled,
+  navigateTo,
+}) {
+  const navigate = useNavigate();
+
   const handleBtnClick = () => {
-    if (onBtnClick) {
+    if (typeof onBtnClick === "function") {
       onBtnClick();
+    }
+    if (navigateTo) {
+      navigate(navigateTo);
     }
   };
   return (
@@ -15,14 +27,14 @@ function Button({ btnText, link, arrow, onBtnClick, isBtnDisabled }) {
       className="btn"
       onClick={() => handleBtnClick()}
     >
-      {link ? (
+      {/* {link ? (
         <Link className="btn__text" to={{ pathname: link }}>
           {btnText}
           {arrow && arrow}
         </Link>
-      ) : (
-        btnText
-      )}
+      ) : ( */}
+      {btnText}
+      {/* )} */}
     </button>
   );
 }

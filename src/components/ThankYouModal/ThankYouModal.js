@@ -32,7 +32,11 @@ function ThankYouModal() {
             <span>$ {calculateGrandTotal(basket)}</span>
           </div>
         </div>
-        <Button btnText="BACK TO HOME" onBtnClick={backToHome} link="/home" />
+        <Button
+          btnText="BACK TO HOME"
+          onBtnClick={backToHome}
+          navigateTo="/home"
+        />
       </div>
     </div>
   );
