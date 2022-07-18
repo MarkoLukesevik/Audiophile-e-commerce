@@ -22,7 +22,7 @@ const reducer = (state, { type, payload }) => {
         return { ...state, basket: [...state.basket, { ...payload }] };
       }
 
-      existingProduct.quantity += 1;
+      existingProduct.quantity += payload.quantity;
       return { ...state, basket: [...state.basket] };
 
     case INCREASE_QUANTITY:
